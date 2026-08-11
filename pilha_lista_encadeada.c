@@ -4,7 +4,7 @@
 
 typedef struct lista {
     int info;
-    struct lista *prox;
+    struct lista* prox;
 } TLista;
 
 TLista* push_pilha(TLista* li, int valor) {
