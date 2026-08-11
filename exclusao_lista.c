@@ -8,14 +8,14 @@ typedef struct lista {
 } TLista;
 
 TLista* exclui(TLista* li, int valor){
-    if (li == NULL)
+     if (li == NULL)
         return NULL;
     if (li->info == valor) {
         TLista* temp = li;
         li = li->prox;
         free(temp);
-        return li = exclui(li, valor);
-    }
+        return exclui(li, valor);}
+    li->prox = exclui(li->prox, valor);
     return li;
 }
 
