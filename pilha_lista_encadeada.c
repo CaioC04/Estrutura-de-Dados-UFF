@@ -23,11 +23,5 @@ TLista* pull_pilha(TLista* li) {
     return li;
 }
 
-void imprime_lista(TLista *li) {
-    TLista* p;
-    for (p = li; p != NULL; p = p->prox)
-        printf("%d ", p->info);
-}
-
 int main(void) {
 }
