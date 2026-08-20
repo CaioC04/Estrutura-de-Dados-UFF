@@ -22,6 +22,3 @@ TLista* pull_pilha(TLista* li) {
     free(temp);
     return li;
 }
-
-int main(void) {
-}

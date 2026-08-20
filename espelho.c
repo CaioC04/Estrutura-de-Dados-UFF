@@ -6,7 +6,7 @@ typedef struct No{
     int info;
     struct No *esq, *dir;
 }TAB;
-    
+
 void espelho(TAB *a) {
     if (a == NULL)
         return;
